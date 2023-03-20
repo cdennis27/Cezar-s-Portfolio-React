@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import PortfolioContainer from './PortfolioContainer';
+import Header from './Header';
+import '../styles/PortfolioContainer.css';
+import myDrawing from './images/myDrawing.gif';
 
 
 export default function PageContent() {
@@ -12,7 +15,7 @@ export default function PageContent() {
     console.log({NavTabs});
     return (
         <div>
-            <Blog  />
+            <Portfolio  />
         </div>
 
 
