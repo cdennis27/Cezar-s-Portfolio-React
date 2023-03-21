@@ -9,6 +9,7 @@ import PageContent from './PageContent';
 import Header from './Header';
 import '../styles/PortfolioContainer.css';
 import myDrawing from './images/myDrawing.gif';
+import Footer from './Footer';
 
 
 
@@ -67,6 +68,9 @@ export default function PortfolioContainer() {
       </div>
       <div className="page">
         {renderPage()}
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );

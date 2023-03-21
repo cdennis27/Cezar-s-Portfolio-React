@@ -153,11 +153,89 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    position: relative;
     width: 100%;
-    height: 100%;
     color: var(--white);
     padding: 0 0 0 0;
+    margin-top: 20px;
+}
+
+.webProjects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    color: var(--white);
+    padding: 0 0 0 0;
+    margin-top: 80px;
+    
+}
+
+.webProjects-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-indent: 0vw;
+    align-items: left;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    color: var(--white);
+    padding: 0 0 0 0;
+    
+}
+
+.webProjects-header h3 {
+    font-size: 1.5rem;
+    border-bottom: var(--brightBlue) 1px solid;
+    padding: 5px 0 5px 0;
+    margin: 0 5vw 0 5vw;
+    
+}
+
+.webProjects-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    color: var(--white);
+    padding: 10px;
+    margin: 0 0 0 0;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    color: var(--white);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.card img {
+    display: inline-block;
+    width: 22vw;
+    border-radius: 1vw;
+    margin: 0;
+}
+
+.card p {
+    padding: 0 4vw 0 4vw;
+    text-align: justify;
+}
+
+.GitHub-link {
+    padding: 20px 10px 20px 10px;
+    margin: 10px 0 10px 0;
+    color: var(--white);
+    font-size: 0.8rem;
 }
 
 
@@ -166,7 +244,41 @@ body {
 
 
 
+.hover:hover {
+    
+    color: var(--brightBlue);
+    border-radius: 10%;
+    transition: 300ms ease-in-out;
+}
 
+.centered {
+    justify-content: center;
+    padding: 0 0 0 0;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--bgBlue);
+    color: var(--white);
+    margin-top: auto;
+  
+  }
+  
+  footer h3 {
+    font-size: 150%;
+    line-height: 45px;
+  }
+  
+  footer a img {
+    height: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
 .centered {
     justify-content: center;
