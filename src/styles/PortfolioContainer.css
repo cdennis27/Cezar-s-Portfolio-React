@@ -23,7 +23,8 @@ a {
     cursor: pointer;
 }
 
-.input, textarea {
+.input,
+textarea {
     all: unset;
     border: 1px solid var(--brightBlue);
     margin: 20px 20px 20px 20px;
@@ -37,8 +38,8 @@ a {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color:var(--brightBlue);
-    
+    color: var(--brightBlue);
+
 }
 
 body {
@@ -67,7 +68,7 @@ body {
     z-index: +5;
     padding: 10px 0 10px 0;
     background-color: var(--bgBlue);
-    
+
 }
 
 .header-bar-left {
@@ -178,7 +179,7 @@ body {
     color: var(--white);
     padding: 0 0 0 0;
     margin-top: 80px;
-    
+
 }
 
 .webProjects-header {
@@ -192,7 +193,7 @@ body {
     height: 80px;
     color: var(--white);
     padding: 0 0 0 0;
-    
+
 }
 
 .webProjects-header h3 {
@@ -200,7 +201,7 @@ body {
     border-bottom: var(--brightBlue) 1px solid;
     padding: 5px 0 5px 0;
     margin: 0 5vw 0 5vw;
-    
+
 }
 
 .webProjects-cards {
@@ -211,7 +212,7 @@ body {
     color: var(--white);
     padding: 10px;
     margin: 0 0 0 0;
-    
+
 }
 
 .card {
@@ -224,7 +225,7 @@ body {
     color: var(--white);
     padding: 10px;
     margin: 10px;
-    
+
 }
 
 .card img {
@@ -257,7 +258,7 @@ body {
     color: var(--white);
     padding: 0 5vw 300px 5vw;
     margin-top: 100px;
-    
+
 }
 
 .aboutme-page p {
@@ -267,7 +268,7 @@ body {
     text-align-last: left;
     text-align: justify;
     text-indent: 5vw;
-    
+
 }
 
 .aboutme-page h1 {
@@ -290,7 +291,7 @@ body {
     color: var(--white);
     margin-top: 20px;
     padding: 0 0 0 0;
-    
+
 }
 
 .contact-form {
@@ -303,7 +304,7 @@ body {
     color: var(--white);
     margin-top: 20px;
     padding: 0 0 0 0;
-    
+
 }
 
 .contact h1 {
@@ -316,7 +317,8 @@ body {
     border-bottom: var(--brightBlue) 1px solid;
 }
 
-.input, .contact-form textarea {
+.input,
+.contact-form textarea {
     width: 50%;
     margin: 10px, 10px, 10px, 10px;
     color: var(--black);
@@ -402,10 +404,29 @@ body {
 
 .resume-end {
     border-bottom: var(--brightBlue) 1px solid;
-    
+
 }
 
+.button-resume {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    background: var(--brightBlue);
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 80px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
 
+.button-resume:hover {
+    background: var(--white);
+    color: var(--brightBlue);
+    transition: 200ms ease-in-out;
+}
 
 
 
@@ -432,7 +453,7 @@ body {
 }
 
 .hover:hover {
-    
+
     color: var(--brightBlue);
     border-radius: 10%;
     transition: 300ms ease-in-out;
@@ -453,19 +474,19 @@ footer {
     background: var(--bgBlue);
     color: var(--white);
     margin-top: auto;
-  
-  }
-  
-  footer h3 {
+
+}
+
+footer h3 {
     font-size: 150%;
     line-height: 45px;
-  }
-  
-  footer a img {
+}
+
+footer a img {
     height: 45px;
     margin-left: 15px;
     margin-right: 15px;
-  }
+}
 
 .centered {
     justify-content: center;
@@ -474,4 +495,179 @@ footer {
 
 .hidden {
     display: none;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .header-bar-left,
+    .header-bar-right {
+        font-size: 90%;
+
+    }
+
+    .header-bar-right {
+        font-size: 80%;
+    }
+
+    .webProjects-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card img {
+        width: 40vw;
+    }
+
+    .double-images {
+        flex-direction: column;
+        height: 800px;
+        padding: 0 0 0 0;
+
+    }
+
+    .double-images a {
+        margin: 0 0 20px 0;
+        max-width: 80%;
+
+    }
+
+    .double-images img {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+
+    .hover:hover,
+    .header-bar-left a:hover {
+        color: var(--white);
+
+    }
+
+    .header-bar-left,
+    .header-bar-right {
+        font-size: 90%;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .header-bar-right {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .aboutme {
+        margin-top: 120px;
+    }
+
+    .aboutme-page {
+        margin-top: 150px;
+    }
+
+    .webProjects-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card img {
+        width: 40vw;
+    }
+
+    .double-images {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0 20px 0;
+
+    }
+
+    .double-images a {
+        margin: 0 0 20px 0;
+        max-width: 80%;
+
+    }
+
+    .double-images img {
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 660px) {
+
+    .webProjects-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 80vw;
+    }
+
+    .contact div {
+        width: 80%;
+    }
+
+    .aboutme {
+        height: 270px;
+        padding: 0 5vw 0 5vw;
+    }
+
+    .aboutme-left-container {
+
+        width: 40vw;
+
+    }
+
+    .aboutme img {
+        width: 50vw;
+
+    }
+
+    .contact div {
+        font-size: 65%;
+        height: 500px;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .aboutme-right-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+
+    .aboutme-left-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    
+    .btn {
+        font-size: 85%;
+        padding: 10px 20px 10px 20px;
+        margin: 0 0 0 0;
+    }
+
+
 }

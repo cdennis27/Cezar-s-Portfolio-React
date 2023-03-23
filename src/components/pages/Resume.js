@@ -3,10 +3,14 @@ import resumePdf from '../../assets/resume.pdf';
 
 export default function Resume() {
     return (
-        <section class="resume">
-
+        <section className="resume">
+            <button className="button-resume">
+                <a className="" href={resumePdf} download="resume.pdf">
+                    Download Resume
+                </a>
+            </button>
             <h1>Cezar's Resume</h1>
-            <div class="resume-header">
+            <div className="resume-header">
                 <h2>Work Experience</h2>
             </div>
             <span>2015-2022</span>
@@ -100,11 +104,7 @@ export default function Resume() {
                 printing, CNC machining, laser cutting, welding, electronics, customer feedback on UI and UX.
             </p>
 
-            <button className="button-resume">
-                <a className="" href={resumePdf} download="resume.pdf">
-                    Download Resume
-                </a>
-            </button>
+            
 
 
 

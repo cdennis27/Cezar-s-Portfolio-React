@@ -5,8 +5,6 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import PageContent from './PageContent';
-import Header from './Header';
 import '../styles/PortfolioContainer.css';
 import myDrawing from './images/myDrawing.gif';
 import Footer from './Footer';

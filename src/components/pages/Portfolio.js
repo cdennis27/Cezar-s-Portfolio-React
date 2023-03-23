@@ -93,12 +93,12 @@ export default function Portfolio() {
 
 
   return (
-    <section class="webProjects-container" id="work">
-      <div class="webProjects-header">
+    <section className="webProjects-container" id="work">
+      <div className="webProjects-header">
         <h3>Software Projects / Web development</h3>
       </div>
 
-      <div class="webProjects-cards">
+      <div className="webProjects-cards">
 
 
         {projects.map((item, index) => {
@@ -108,7 +108,7 @@ export default function Portfolio() {
               <h2>{item.name}</h2>
               <a href={item.link}><img src={item.image} alt={item.alt} /></a>
               <p>{item.description}</p>
-              <a class="GitHub-link hover" href={item.github}>GitHub Repository, click here!</a>
+              <a className="GitHub-link hover" href={item.github}>GitHub Repository, click here!</a>
             </div>
           )
         }
