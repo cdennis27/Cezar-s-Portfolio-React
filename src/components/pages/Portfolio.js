@@ -8,6 +8,7 @@ import image6 from '../images/noteTakerScreenshot.png';
 import image7 from '../images/teamGeneratorSCreenshot.jpg';
 import image8 from '../images/readmeGeneratorScreenshot.jpg';
 import image9 from '../images/employeetrackertable.jpg';
+// https://cdennis27.github.io/CezarPortfolio/assets/images/CardealerappScreenshot.jpg
 
 
 

@@ -12,14 +12,7 @@ import myDrawing from './images/myDrawing.gif';
 
 export default function PageContent() {
     
-    console.log({NavTabs});
-    return (
-        <div>
-            <Portfolio  />
-        </div>
-
-
-    );
-
+    console.log("PageContent");
+    
 }
 
