@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Cezar-s-Portfolio-React/static/css/main.33d17e9d.css",
-    "main.js": "/Cezar-s-Portfolio-React/static/js/main.e8af5a55.js",
+    "main.css": "/Cezar-s-Portfolio-React/static/css/main.4b640b94.css",
+    "main.js": "/Cezar-s-Portfolio-React/static/js/main.0a12923b.js",
     "static/media/myDrawing.gif": "/Cezar-s-Portfolio-React/static/media/myDrawing.29ca58502d83e20d153c.gif",
     "static/media/CardealerappScreenshot.jpg": "/Cezar-s-Portfolio-React/static/media/CardealerappScreenshot.3f7de821ce090e0a6a3c.jpg",
+    "static/media/resume.pdf": "/Cezar-s-Portfolio-React/static/media/resume.37993c3358684514dfae.pdf",
     "static/media/Weatherapphomepage.jpg": "/Cezar-s-Portfolio-React/static/media/Weatherapphomepage.493a3981cefaedf5733e.jpg",
     "static/media/employeetrackertable.jpg": "/Cezar-s-Portfolio-React/static/media/employeetrackertable.d6096e84cea5c7e895bd.jpg",
     "static/media/BudgetControlCurrencyExchange.jpg": "/Cezar-s-Portfolio-React/static/media/BudgetControlCurrencyExchange.6f705267b4a082e3e215.jpg",
@@ -13,11 +14,11 @@
     "static/media/noteTakerScreenshot.png": "/Cezar-s-Portfolio-React/static/media/noteTakerScreenshot.31be07c3d4b71be9d86b.png",
     "static/media/webdevBlog.jpg": "/Cezar-s-Portfolio-React/static/media/webdevBlog.ea4019aa8405fdd7f58c.jpg",
     "index.html": "/Cezar-s-Portfolio-React/index.html",
-    "main.33d17e9d.css.map": "/Cezar-s-Portfolio-React/static/css/main.33d17e9d.css.map",
-    "main.e8af5a55.js.map": "/Cezar-s-Portfolio-React/static/js/main.e8af5a55.js.map"
+    "main.4b640b94.css.map": "/Cezar-s-Portfolio-React/static/css/main.4b640b94.css.map",
+    "main.0a12923b.js.map": "/Cezar-s-Portfolio-React/static/js/main.0a12923b.js.map"
   },
   "entrypoints": [
-    "static/css/main.33d17e9d.css",
-    "static/js/main.e8af5a55.js"
+    "static/css/main.4b640b94.css",
+    "static/js/main.0a12923b.js"
   ]
 }
