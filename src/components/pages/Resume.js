@@ -1,8 +1,9 @@
 import React from 'react';
+import resumePdf from '../../assets/resume.pdf';
 
 export default function Resume() {
-  return (
-    <section class="resume">
+    return (
+        <section class="resume">
 
             <h1>Cezar's Resume</h1>
             <div class="resume-header">
@@ -99,9 +100,16 @@ export default function Resume() {
                 printing, CNC machining, laser cutting, welding, electronics, customer feedback on UI and UX.
             </p>
 
+            <button className="button-resume">
+                <a className="" href={resumePdf} download="resume.pdf">
+                    Download Resume
+                </a>
+            </button>
+
 
 
 
         </section>
-  );
+
+    );
 }
