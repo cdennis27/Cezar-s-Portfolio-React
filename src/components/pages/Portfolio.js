@@ -8,6 +8,8 @@ import image6 from '../images/noteTakerScreenshot.png';
 import image7 from '../images/teamGeneratorSCreenshot.jpg';
 import image8 from '../images/readmeGeneratorScreenshot.jpg';
 import image9 from '../images/employeetrackertable.jpg';
+import image10 from '../images/jaceScreenshot.jpg';
+
 // https://cdennis27.github.io/CezarPortfolio/assets/images/CardealerappScreenshot.jpg
 
 
@@ -15,6 +17,14 @@ import image9 from '../images/employeetrackertable.jpg';
 export default function Portfolio() {
 
   const [projects, setGroup] = useState([
+    {
+      name: "JACE",
+      link: "https://jace1971.herokuapp.com/",
+      image: image10,
+      alt: "Classic Whipz screenshot",
+      description: "Web Application for restaurants for in-house ordering, Heroku deployed, Apollo GraphQL, React, NoSQL, Stripe, MERN technologies used.",
+      github: "https://github.com/cdennis27/JACE"
+    },
     {
       name: "Classic Whipz",
       link: "https://classiccarwhipz.herokuapp.com/",

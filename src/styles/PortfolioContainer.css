@@ -236,8 +236,10 @@ body {
 }
 
 .card p {
-    padding: 0 4vw 0 4vw;
+    padding: 20px 4vw 0 4vw;
     text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
 }
 
 .GitHub-link {
@@ -356,7 +358,7 @@ body {
     height: auto;
     color: var(--white);
     margin-top: 80px;
-    padding: 0 0 40px 0;
+    padding: 0 250px 40px 250px;
     text-align: left;
 }
 
@@ -497,7 +499,11 @@ footer a img {
     display: none;
 }
 
-
+@media screen and (max-width: 1400px) {
+    .resume {
+        padding: 0 150px 40px 150px;
+    }
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -535,6 +541,10 @@ footer a img {
 
     .double-images img {
         max-width: 100%;
+    }
+
+    .resume {
+        padding: 0 20px 40px 20px;
     }
 
 }
@@ -654,6 +664,10 @@ footer a img {
         justify-content: center;
         align-items: center;
         margin: 0 0 0 0;
+    }
+
+    .resume p {
+        font-size: .8rem;
     }
 
 
